@@ -1,0 +1,37 @@
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+pre {
+  border: 1px solid lightgray;
+  padding: 0.5em 1em;
+  font-size: 9pt;
+}
+pre * {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+  hyphens: none !important;
+}
+pre > code.sourceCode > span { display: inline; }
+pre *, code {
+  font-family: 'Courier New', Courier, monospace !important;
+}
+code {
+  font-size: 90%;
+}
+h1 > em {
+  display: block;
+  font-style: normal;
+}
+ol.toc {
+  padding-left: 0;
+}
+ol.toc li {
+  list-style: none;
+}
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.1em 1em;
+  background-color: #eee;
+  border-radius: 8px;
+}

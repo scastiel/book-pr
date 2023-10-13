@@ -1,0 +1,60 @@
+\usepackage{pdfpages}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\tcbuselibrary{skins}
+
+
+\renewenvironment{Shaded} {
+  \begin{tcolorbox}[boxrule=0pt,colframe=lightgray!75!black,enhanced,breakable]
+  \scriptsize
+} {
+  \end{tcolorbox}
+}
+
+\renewenvironment{quote} {
+  \begin{tcolorbox}[boxrule=0pt,leftrule=2mm,sharp corners,colback=white,colframe=lightgray,enhanced,breakable,fontupper=\itshape]
+} {
+  \end{tcolorbox}
+}
+
+\pagestyle{fancy}
+\fancypagestyle{plain}{%
+  \fancyhead{}
+  % \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0.2pt}
+}
+
+\fancyhead{}
+\fancyfoot{}
+
+\fancyfoot[R] {\thepage}
+% \fancyhead[RO]{\nouppercase{\slshape \rightmark}}
+% \fancyhead[LE]{\nouppercase{\slshape \leftmark}}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.2pt}
+
+% \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+
+% \usepackage[sfdefault]{ClearSans}
+\usepackage[T1]{fontenc}
+
+\usepackage{FiraMono}
+
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{
+  \oldtexttt{\footnotesize#1}
+}
+
+\widowpenalty10000
+\clubpenalty10000
+
+% \makeatletter
+% \renewcommand{\@chapapp}{Lesson}
+% \makeatother
