@@ -197,11 +197,15 @@ Finally, your specific PR might need **specific reviewers**. If your feature use
 
 ## Use required vs. optional reviewers {-}
 
-On GitHub and other platforms, you can take advantage of _Required_ vs. _Optional_ reviewers. If you want to get a review from your team’s senior developer and one of your team’s junior or mid-level developers, you can for instance set the senior developer and two of the others as required reviewers, and the rest of the team as optional reviewers.
+On some platforms (not GitHub, unfortunately), you can take advantage of _Required_ vs. _Optional_ reviewers. If you want to get a review from your team’s senior developer and one of your team’s junior or mid-level developers, you can for instance set the senior developer and two of the others as required reviewers, and the rest of the team as optional reviewers.
 
 It’s important for everyone in your team to agree about when a review is required or not. In some teams, all required reviewers must approve the PR before it is merged. In others, only one needs to approve.
 
 The important point is that by adding someone as optional reviewer, you’re telling them “I could use your feedback, but if you don’t have time it’s okay.”
+
+If your platform doesn’t offer you to add optional reviewers to your PR, use the description field:
+
+> “Mark, I added you as a reviewer because I think you can help us, but don’t feel pressured if you’re too busy.
 
 # Be responsive to comments
 
@@ -418,7 +422,7 @@ return true
 
 But I accept that it’s a question of preference. None of the two ways is better than the other, and I wouldn’t force anyone to choose the second one over the first one. But I might add this comment:
 
-> “I thing the code could be easier to read with an early return.
+> “I think the code could be easier to read with an early return.
 > (code snippet inserted here)
 > It’s okay if you prefer it this way though.”
 
