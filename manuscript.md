@@ -229,7 +229,7 @@ What you want to avoid is waiting several days to get your PR approved. If someo
 
 ## When a comment isn’t clear, ask for more information {-}
 
-If someone puts a comment you’re not sure to fully understand, ask for more information. It can be either by answering the comment, or by any other mean, such as your instant messaging tool, or by asking for a short meeting.
+If someone puts a comment you’re not sure to fully understand, ask for more information. It can be either by answering the comment, or by any other means, such as your instant messaging tool, or by asking for a short meeting.
 
 You may think you’ll disturb the reviewer. But not only it is far better than not understanding the comment, but the reviewer will likely appreciate **you’re taking the energy** to understand better what they tried to say.
 
