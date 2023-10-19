@@ -9,9 +9,9 @@ epub: dist/$(BOOK_FILENAME).epub
 
 pdf: dist/$(BOOK_FILENAME).pdf
 
-dist/$(BOOK_FILENAME).epub: dist *.md cover.jpg style-epub.css
+dist/$(BOOK_FILENAME).epub: dist manuscript.md cover.jpg style-epub.css
 		@echo "Generating ePub: $@..." && \
-		pandoc -s *.md \
+		pandoc -s manuscript.md \
 			-o "$@" \
 			--highlight-style=kate \
 			--metadata title="$(subst  \,,$(BOOK_TITLE))" \
@@ -20,9 +20,9 @@ dist/$(BOOK_FILENAME).epub: dist *.md cover.jpg style-epub.css
 			-N --table-of-contents --toc-depth=1 -M toc-title:"Table of contents" \
 			-c style-epub.css
 
-dist/$(BOOK_FILENAME).pdf: dist *.md header.tex cover.txt cover.pdf
+dist/$(BOOK_FILENAME).pdf: dist manuscript.md header.tex cover.txt cover.pdf
 		@echo "Generating PDF: $@..." && \
-		pandoc -s cover.txt *.md \
+		pandoc -s cover.txt manuscript.md \
 						-o "$@" \
 						--highlight-style=kate \
 						-N \
