@@ -219,7 +219,7 @@ It’s important to be aware of it, but also to let people know that you are awa
 
 Example:
 
-> “Thanks for this suggestion! It turns out I thought about doing it that way first, but ended up doing it my way because I think it makes the function function easier to understand, even though it is slightly longer. What do you think?”
+> “Thanks for this suggestion! It turns out I thought about doing it that way first, but ended up doing it my way because I think it makes the function easier to understand, even though it is slightly longer. What do you think?”
 
 ## Fix what you can as soon as possible {-}
 
