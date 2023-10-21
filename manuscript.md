@@ -219,7 +219,7 @@ It’s important to be aware of it, but also to let people know that you are awa
 
 Example:
 
-> “Thanks for this suggestion! It turns out I thought about doing it that way first, but ended up doing it my way because I think it makes the function function easier to understand, even though it is slightly longer. What do you think?”
+> “Thanks for this suggestion! It turns out I thought about doing it that way first, but ended up doing it my way because I think it makes the function easier to understand, even though it is slightly longer. What do you think?”
 
 ## Fix what you can as soon as possible {-}
 
@@ -249,7 +249,7 @@ You can also make the asked change while still arguing against:
 
 Of course, don’t adopt this behaviour if you think it can cause any problems in the application or for maintainability.
 
-And obviously, sometimes you’ll answer a comment to tell the reviewer why do did things that way, and you’ll convince them it’s the right way to do it. In this case, ask yourself if the code could be more clear, or maybe a comment could help to prevent anyone reading your code in the future and asking the same question.
+And obviously, sometimes you’ll answer a comment to tell the reviewer why you did things that way, and you’ll convince them it’s the right way to do it. In this case, ask yourself if the code could be more clear, or maybe a comment could help to prevent anyone reading your code in the future and asking the same question.
 
 Finally, **a comment thread might become an argument**. If a comment gets more than three or four replies, maybe it’s time to realize that the comments are not the best place for this discussion. See [13. Some conflicts can’t be solved in comments](#some-conflicts-cant-be-solved-in-comments).
 
