@@ -462,7 +462,7 @@ The workflow I follow for my code reviews might seem counter-intuitive, as it go
 
 ## First pass: review each line of code {-}
 
-The first pass is where you can add comments about tiny pieces of code: function or variable naming, good practices, etc. If you don’t understand a piece of code, don’t assume the rest of the PR will give you more information, and add a comment. The next passes will let you decide whether or not you keep the comment.
+The first pass is where you can add comments about tiny pieces of code: function or variable naming, good practices, etc. If you don’t understand a piece of code, don’t assume the rest of the PR will give you more information, and add a comment. The following passes will let you decide whether or not you keep the comment.
 
 ## Second pass: review the big picture {-}
 
