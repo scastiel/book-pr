@@ -448,7 +448,7 @@ Finally, a comment can be used to tell the developer they did something wrong, b
 
 Also don’t underestimate the power of a nice comment to conclude the PR:
 
-> “I added a couple of comments, but it’s very good job!”
+> “I added a couple of comments, but it’s a very good job!”
 
 Some comments don’t even need an answer; they’re just a nice way to inject good energy in a team!
 
