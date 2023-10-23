@@ -209,7 +209,7 @@ If your platform doesn’t offer you to add optional reviewers to your PR, use t
 
 # Be responsive to comments
 
-When a developer takes time to review your code and add comments, the least you can do is handling them the best you can. In practice, it sometimes isn’t as easy as it seems.
+When a developer takes time to review your code and add comments, the least you can do is handle them the best you can. In practice, it sometimes isn’t as easy as it seems.
 
 ## Be open to feedback {-}
 
