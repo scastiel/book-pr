@@ -201,7 +201,7 @@ On some platforms (not GitHub, unfortunately), you can take advantage of _Requir
 
 It’s important for everyone in your team to agree about when a review is required or not. In some teams, all required reviewers must approve the PR before it is merged. In others, only one needs to approve.
 
-The important point is that by adding someone as optional reviewer, you’re telling them “I could use your feedback, but if you don’t have time it’s okay.”
+The important point is that by adding someone as an optional reviewer, you’re telling them “I could use your feedback, but if you don’t have time it’s okay.”
 
 If your platform doesn’t offer you to add optional reviewers to your PR, use the description field:
 
