@@ -512,7 +512,7 @@ One of the problems with comments is that the conversation is not really real-ti
 
 A first step can be to continue the conversation on Slack for instance. It is a better platform for real-time conversation, and it’s easier from there to involve a third-party.
 
-> “This comment started an interesting conversation, but I suggest we continue it in Slack. Let me start a thread, will post here the result of the discussion.”
+> “This comment started an interesting conversation, but I suggest we continue it in Slack. Let me start a thread, I will post the results of the discussion here.”
 
 ## Involve a third-party {-}
 
