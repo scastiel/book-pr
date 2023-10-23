@@ -151,7 +151,7 @@ Thanks to this view, you may realize that some code is duplicated where it shoul
 
 ## Anticipate any comment you could receive {-}
 
-When looking at your code, imagine what questions, suggestions, criticism you could receive. Either anticipate them by indicating the reviewers you thought about it and made a informed choice, or fix your code to make it more clear.
+When looking at your code, imagine what questions, suggestions, and criticism you could receive. Either anticipate them by indicating the reviewers you thought about it and made an informed choice, or fix your code to make it more clear.
 
 Here is a concrete example. You see a piece of code and think “I chose to use a `for` loop while in the rest of the app we prefer using `.map`”. Here is what can happen next:
 
