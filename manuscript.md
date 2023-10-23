@@ -124,7 +124,7 @@ Also realize that when your PR is merged, it will still exist. When people find 
 
 ## Make people trust you {-}
 
-Imagine your have to review two PRs, and have time to review only one before the end of day. Both have a clear description with all the required information.
+Imagine you have to review two PRs, and have time to review only one before the end of day. Both have a clear description with all the required information.
 
 1. The first is from Alice, who created two PRs last week that you reviewed. The code was clean, you added a couple of comments, and she made the changes quickly. Barely 15 minutes after you started to review both, you were able to approve them and she merged them.
 2. The second one is from Bob. You reviewed a PR of his last week. You fetched his changes locally, and noticed that you weren’t able to start the application because of an exception. You told him but had to wait half a day before he even answered your message. Then you noticed that some of his changes did not comply with the Figma design provided by the UI/UX team. Finally, after a dozen comments about his code, you approved the PR, but the end-to-end tests failed and he had to rollback his PR.
