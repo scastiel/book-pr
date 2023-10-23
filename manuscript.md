@@ -426,7 +426,7 @@ But I accept that it’s a question of preference. None of the two ways is bette
 > (code snippet inserted here)
 > It’s okay if you prefer it this way though.”
 
-At best, the submitter agrees and makes the change. Otherwise, they tell me they prefer their way, and I’m completely okay with it. In the end, the developers are responsible of the code they write. It doesn’t make sense to force anyone following arbitrary “good” practices if they aren’t comfortable with it.
+At best, the submitter agrees and makes the change. Otherwise, they tell me they prefer their way, and I’m completely okay with it. In the end, the developers are responsible for the code they write. It doesn’t make sense to force anyone to follow arbitrary “good” practices if they aren’t comfortable with it.
 
 _**Note:** it isn’t really the purpose of this guide, but I have the same opinion regarding some linting configurations and static analysis tools. When they enforce rules that are too strict, they become counter-productive._
 
