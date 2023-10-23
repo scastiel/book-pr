@@ -364,7 +364,7 @@ Example: you notice that a developer did something that the framework’s docume
 
 Consider:
 
-> “I notice the documentation suggest not doing it that way. Why not doing it this way instead?”
+> “I notice the documentation suggests not doing it that way. Why not do it this way instead?”
 
 ## Be open and positive {-}
 
