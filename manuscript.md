@@ -231,7 +231,7 @@ What you want to avoid is waiting several days to get your PR approved. If someo
 
 If someone puts a comment you’re not sure you fully understand, ask for more information. It can be either by answering the comment, or by any other means, such as your instant messaging tool, or by asking for a short meeting.
 
-You may think you’ll disturb the reviewer. But not only it is far better than not understanding the comment, but the reviewer will likely appreciate **you’re taking the energy** to understand better what they tried to say.
+You may think you’ll disturb the reviewer. But not only is it far better than not understanding the comment, but the reviewer will likely appreciate **you’re taking the energy** to understand better what they tried to say.
 
 Example: (on instant messaging)
 
