@@ -378,11 +378,11 @@ See [Some comments don’t ask for any change](#some-comments-dont-ask-for-any-c
 
 ## If you think something is wrong, suggest an alternative {-}
 
-When you add a comment to suggest a change, always try to propose a specific way to make the change. For instance, if you think a variable or function name is wrong [(naming things is hard)](https://martinfowler.com/bliki/TwoHardThings.html), don’t just tell:
+When you add a comment to suggest a change, always try to propose a specific way to make the change. For instance, if you think a variable or function name is wrong [(naming things is hard)](https://martinfowler.com/bliki/TwoHardThings.html), don’t just say:
 
 > “Please give a better name to the variable/function.”
 
-Instead, you can tell:
+Instead, you can say:
 
 > “I think thisName or thatName would make more sense, what do you think?”
 
