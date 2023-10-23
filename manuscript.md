@@ -175,7 +175,7 @@ By assigning your PR to two or three people, you tell them that you think _they_
 
 ## The more feedback the better… up to a certain point {-}
 
-Assuming you assigned your PR to many people and everyone really wants to review your PR, discussion can quickly become non-constructive. Someone will ask for a change, that you’ll do, and someone else will reply to disagree with the change, and without you realize it, you’ll have started five debates on the application architecture that have very little to do with your code.
+Assuming you assigned your PR to many people and everyone really wants to review your PR, discussion can quickly become non-constructive. Someone will ask for a change, that you’ll do, and someone else will reply to disagree with the change, and without you realizing it, you’ll have started five debates on the application architecture that have very little to do with your code.
 
 Getting feedback from one developer is nice, getting some from two or three is better. But from a certain point, that is just too many people. And the more people you have, the hardest it is to make everyone agree. See [13. Some conflicts can’t be solved in comments](#some-conflicts-cant-be-solved-in-comments).
 
