@@ -478,7 +478,7 @@ In [3. Be your PR’s first reviewer](#be-your-prs-first-reviewer), I told you t
 
 You might realize that some information is missing in your comments, or that you found the answer to your question when continuing the review. It’s also the best time to check that your tone is right (see [9. Use the right tone in your comments](#use-the-right-tone-in-your-comments)).
 
-A code review is too important to let misunderstanding be part of it. Each of your comment should be meaningful and —if asking for a change— give proper information to the submitter about how to fix the issue.
+A code review is too important to let misunderstanding be part of it. Each of your comments should be meaningful and —if asking for a change— give proper information to the submitter about how to fix the issue.
 
 # Approve the PR when the submitter made all the changes you asked
 
@@ -508,7 +508,7 @@ Not all discussions are productive, especially in PR comments. When you notice t
 
 ## Continue the discussion somewhere else {-}
 
-One of the problem with comments is that the conversation is not really real-time. Unless participants keep their tab open with the conversation visible, they might have to wait for notifications or check the comments regularly.
+One of the problems with comments is that the conversation is not really real-time. Unless participants keep their tab open with the conversation visible, they might have to wait for notifications or check the comments regularly.
 
 A first step can be to continue the conversation on Slack for instance. It is a better platform for real-time conversation, and it’s easier from there to involve a third-party.
 
