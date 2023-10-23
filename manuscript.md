@@ -129,7 +129,7 @@ Imagine you have to review two PRs, and have time to review only one before the 
 1. The first is from Alice, who created two PRs last week that you reviewed. The code was clean, you added a couple of comments, and she made the changes quickly. Barely 15 minutes after you started to review both, you were able to approve them and she merged them.
 2. The second one is from Bob. You reviewed a PR of his last week. You fetched his changes locally, and noticed that you weren’t able to start the application because of an exception. You told him but had to wait half a day before he even answered your message. Then you noticed that some of his changes did not comply with the Figma design provided by the UI/UX team. Finally, after a dozen comments about his code, you approved the PR, but the end-to-end tests failed and he had to rollback his PR.
 
-So you can review only one the two PRs; which one are you going to choose? The answer is obvious. Even if all the PRs need to be reviewed, and regardless of the urgency of each one, developers are human. They will always favour the PR that has the least chance to introduce risk, frustration, and loosing time.
+So you can review only one the two PRs; which one are you going to choose? The answer is obvious. Even if all the PRs need to be reviewed, and regardless of the urgency of each one, developers are human. They will always favour the PR that has the least chance to introduce risk, frustration, and losing time.
 
 Consider that all developers have a “trust indicator” assigned to each other. When a review goes smoothly, the trust indicator increases for the developer. When it causes frustration, the trust indicator decreases.
 
