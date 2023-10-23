@@ -187,7 +187,7 @@ Don’t put yourself in difficult situations: assigning your PR to two or three 
 
 Now that you have an idea of how many people you’d like to assign your PR to, you need to decide who are the best people to get a review from.
 
-The most obvious person to assign your PR to is a **senior developer** from your team. They’ll be the best person to give you feedback about your code, checking that you follow the best practices. They’re the person who knows the best the application, and often have the responsibility of keeping all the code consistent. Definitely assign your PR to a senior developer.
+The most obvious person to assign your PR to is a **senior developer** from your team. They’ll be the best person to give you feedback about your code, checking that you follow the best practices. They’re the person who knows the application best, and often have the responsibility of keeping all the code consistent. Definitely assign your PR to a senior developer.
 
 It doesn’t mean that only senior developers should review your PR. **Other developers**, even very junior, can review it too, and even give (or not) approval. They have a fresh eye and could find some issues better than more experienced developers.
 
