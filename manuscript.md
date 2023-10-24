@@ -124,12 +124,12 @@ Also realize that when your PR is merged, it will still exist. When people find 
 
 ## Make people trust you {-}
 
-Imagine your have to review two PRs, and have time to review only one before the end of day. Both have a clear description with all the required information.
+Imagine you have to review two PRs, and have time to review only one before the end of day. Both have a clear description with all the required information.
 
 1. The first is from Alice, who created two PRs last week that you reviewed. The code was clean, you added a couple of comments, and she made the changes quickly. Barely 15 minutes after you started to review both, you were able to approve them and she merged them.
 2. The second one is from Bob. You reviewed a PR of his last week. You fetched his changes locally, and noticed that you weren’t able to start the application because of an exception. You told him but had to wait half a day before he even answered your message. Then you noticed that some of his changes did not comply with the Figma design provided by the UI/UX team. Finally, after a dozen comments about his code, you approved the PR, but the end-to-end tests failed and he had to rollback his PR.
 
-So you can review only one the two PRs; which one are you going to choose? The answer is obvious. Even if all the PRs need to be reviewed, and regardless of the urgency of each one, developers are human. They will always favour the PR that has the least chance to introduce risk, frustration, and loosing time.
+So you can review only one the two PRs; which one are you going to choose? The answer is obvious. Even if all the PRs need to be reviewed, and regardless of the urgency of each one, developers are human. They will always favour the PR that has the least chance to introduce risk, frustration, and losing time.
 
 Consider that all developers have a “trust indicator” assigned to each other. When a review goes smoothly, the trust indicator increases for the developer. When it causes frustration, the trust indicator decreases.
 
@@ -151,7 +151,7 @@ Thanks to this view, you may realize that some code is duplicated where it shoul
 
 ## Anticipate any comment you could receive {-}
 
-When looking at your code, imagine what questions, suggestions, criticism you could receive. Either anticipate them by indicating the reviewers you thought about it and made a informed choice, or fix your code to make it more clear.
+When looking at your code, imagine what questions, suggestions, and criticism you could receive. Either anticipate them by indicating the reviewers you thought about it and made an informed choice, or fix your code to make it more clear.
 
 Here is a concrete example. You see a piece of code and think “I chose to use a `for` loop while in the rest of the app we prefer using `.map`”. Here is what can happen next:
 
@@ -175,9 +175,9 @@ By assigning your PR to two or three people, you tell them that you think _they_
 
 ## The more feedback the better… up to a certain point {-}
 
-Assuming you assigned your PR to many people and everyone really wants to review your PR, discussion can quickly become non-constructive. Someone will ask for a change, that you’ll do, and someone else will reply to disagree with the change, and without you realize it, you’ll have started five debates on the application architecture that have very little to do with your code.
+Assuming you assigned your PR to many people and everyone really wants to review your PR, discussion can quickly become non-constructive. Someone will ask for a change, that you’ll do, and someone else will reply to disagree with the change, and without you realizing it, you’ll have started five debates on the application architecture that have very little to do with your code.
 
-Getting feedback from one developer is nice, getting some from two or three is better. But from a certain point, that is just too many people. And the more people you have, the hardest it is to make everyone agree. See [13. Some conflicts can’t be solved in comments](#some-conflicts-cant-be-solved-in-comments).
+Getting feedback from one developer is nice, getting some from two or three is better. But from a certain point, that is just too many people. And the more people you have, the harder it is to make everyone agree. See [13. Some conflicts can’t be solved in comments](#some-conflicts-cant-be-solved-in-comments).
 
 Don’t forget that your goal is to get approvals on your PR. If ten people started reviewing your PR, you might need to get approval from all of them, which isn’t going to be easy. When you ask for someone’s approval and they started reviewing your code, there is no turning back: you’ll have to wait for their approval.
 
@@ -187,7 +187,7 @@ Don’t put yourself in difficult situations: assigning your PR to two or three 
 
 Now that you have an idea of how many people you’d like to assign your PR to, you need to decide who are the best people to get a review from.
 
-The most obvious person to assign your PR to is a **senior developer** from your team. They’ll be the best person to give you feedback about your code, checking that you follow the best practices. They’re the person who knows the best the application, and often have the responsibility of keeping all the code consistent. Definitely assign your PR to a senior developer.
+The most obvious person to assign your PR to is a **senior developer** from your team. They’ll be the best person to give you feedback about your code, checking that you follow the best practices. They’re the person who knows the application best, and often have the responsibility of keeping all the code consistent. Definitely assign your PR to a senior developer.
 
 It doesn’t mean that only senior developers should review your PR. **Other developers**, even very junior, can review it too, and even give (or not) approval. They have a fresh eye and could find some issues better than more experienced developers.
 
@@ -201,7 +201,7 @@ On some platforms (not GitHub, unfortunately), you can take advantage of _Requir
 
 It’s important for everyone in your team to agree about when a review is required or not. In some teams, all required reviewers must approve the PR before it is merged. In others, only one needs to approve.
 
-The important point is that by adding someone as optional reviewer, you’re telling them “I could use your feedback, but if you don’t have time it’s okay.”
+The important point is that by adding someone as an optional reviewer, you’re telling them “I could use your feedback, but if you don’t have time it’s okay.”
 
 If your platform doesn’t offer you to add optional reviewers to your PR, use the description field:
 
@@ -209,7 +209,7 @@ If your platform doesn’t offer you to add optional reviewers to your PR, use t
 
 # Be responsive to comments
 
-When a developer takes time to review your code and add comments, the least you can do is handling them the best you can. In practice, it sometimes isn’t as easy as it seems.
+When a developer takes time to review your code and add comments, the least you can do is handle them the best you can. In practice, it sometimes isn’t as easy as it seems.
 
 ## Be open to feedback {-}
 
@@ -229,9 +229,9 @@ What you want to avoid is waiting several days to get your PR approved. If someo
 
 ## When a comment isn’t clear, ask for more information {-}
 
-If someone puts a comment you’re not sure to fully understand, ask for more information. It can be either by answering the comment, or by any other means, such as your instant messaging tool, or by asking for a short meeting.
+If someone puts a comment you’re not sure you fully understand, ask for more information. It can be either by answering the comment, or by any other means, such as your instant messaging tool, or by asking for a short meeting.
 
-You may think you’ll disturb the reviewer. But not only it is far better than not understanding the comment, but the reviewer will likely appreciate **you’re taking the energy** to understand better what they tried to say.
+You may think you’ll disturb the reviewer. But not only is it far better than not understanding the comment, but the reviewer will likely appreciate **you’re taking the energy** to understand better what they tried to say.
 
 Example: (on instant messaging)
 
@@ -364,7 +364,7 @@ Example: you notice that a developer did something that the framework’s docume
 
 Consider:
 
-> “I notice the documentation suggest not doing it that way. Why not doing it this way instead?”
+> “I notice the documentation suggests not doing it that way. Why not do it this way instead?”
 
 ## Be open and positive {-}
 
@@ -378,11 +378,11 @@ See [Some comments don’t ask for any change](#some-comments-dont-ask-for-any-c
 
 ## If you think something is wrong, suggest an alternative {-}
 
-When you add a comment to suggest a change, always try to propose a specific way to make the change. For instance, if you think a variable or function name is wrong [(naming things is hard)](https://martinfowler.com/bliki/TwoHardThings.html), don’t just tell:
+When you add a comment to suggest a change, always try to propose a specific way to make the change. For instance, if you think a variable or function name is wrong [(naming things is hard)](https://martinfowler.com/bliki/TwoHardThings.html), don’t just say:
 
 > “Please give a better name to the variable/function.”
 
-Instead, you can tell:
+Instead, you can say:
 
 > “I think thisName or thatName would make more sense, what do you think?”
 
@@ -426,7 +426,7 @@ But I accept that it’s a question of preference. None of the two ways is bette
 > (code snippet inserted here)
 > It’s okay if you prefer it this way though.”
 
-At best, the submitter agrees and makes the change. Otherwise, they tell me they prefer their way, and I’m completely okay with it. In the end, the developers are responsible of the code they write. It doesn’t make sense to force anyone following arbitrary “good” practices if they aren’t comfortable with it.
+At best, the submitter agrees and makes the change. Otherwise, they tell me they prefer their way, and I’m completely okay with it. In the end, the developers are responsible for the code they write. It doesn’t make sense to force anyone to follow arbitrary “good” practices if they aren’t comfortable with it.
 
 _**Note:** it isn’t really the purpose of this guide, but I have the same opinion regarding some linting configurations and static analysis tools. When they enforce rules that are too strict, they become counter-productive._
 
@@ -448,7 +448,7 @@ Finally, a comment can be used to tell the developer they did something wrong, b
 
 Also don’t underestimate the power of a nice comment to conclude the PR:
 
-> “I added a couple of comments, but it’s very good job!”
+> “I added a couple of comments, but it’s a very good job!”
 
 Some comments don’t even need an answer; they’re just a nice way to inject good energy in a team!
 
@@ -462,7 +462,7 @@ The workflow I follow for my code reviews might seem counter-intuitive, as it go
 
 ## First pass: review each line of code {-}
 
-The first pass is where you can add comments about tiny pieces of code: function or variable naming, good practices, etc. If you don’t understand a piece of code, don’t assume the rest of the PR will give you more information, and add a comment. The next passes will let you decide whether or not you keep the comment.
+The first pass is where you can add comments about tiny pieces of code: function or variable naming, good practices, etc. If you don’t understand a piece of code, don’t assume the rest of the PR will give you more information, and add a comment. The following passes will let you decide whether or not you keep the comment.
 
 ## Second pass: review the big picture {-}
 
@@ -478,7 +478,7 @@ In [3. Be your PR’s first reviewer](#be-your-prs-first-reviewer), I told you t
 
 You might realize that some information is missing in your comments, or that you found the answer to your question when continuing the review. It’s also the best time to check that your tone is right (see [9. Use the right tone in your comments](#use-the-right-tone-in-your-comments)).
 
-A code review is too important to let misunderstanding be part of it. Each of your comment should be meaningful and —if asking for a change— give proper information to the submitter about how to fix the issue.
+A code review is too important to let misunderstanding be part of it. Each of your comments should be meaningful and —if asking for a change— give proper information to the submitter about how to fix the issue.
 
 # Approve the PR when the submitter made all the changes you asked
 
@@ -508,11 +508,11 @@ Not all discussions are productive, especially in PR comments. When you notice t
 
 ## Continue the discussion somewhere else {-}
 
-One of the problem with comments is that the conversation is not really real-time. Unless participants keep their tab open with the conversation visible, they might have to wait for notifications or check the comments regularly.
+One of the problems with comments is that the conversation is not really real-time. Unless participants keep their tab open with the conversation visible, they might have to wait for notifications or check the comments regularly.
 
 A first step can be to continue the conversation on Slack for instance. It is a better platform for real-time conversation, and it’s easier from there to involve a third-party.
 
-> “This comment started an interesting conversation, but I suggest we continue it in Slack. Let me start a thread, will post here the result of the discussion.”
+> “This comment started an interesting conversation, but I suggest we continue it in Slack. Let me start a thread, I will post the results of the discussion here.”
 
 ## Involve a third-party {-}
 
