@@ -26,7 +26,7 @@ What is the point of creating the PR before it is ready? There are several benef
 
 ## Review your changes from outside of your IDE {-}
 
-Once your PR is created, you can view all the code changes on GitHub. This offers a different experience compared to reviewing changes in your VS Code. You may identify certain issues or areas for improvement that are more challenging to identify when reviewing the entire project.
+Once your PR is created, you can view all the code changes on GitHub. This offers a different experience compared to reviewing changes in your IDE. You may identify certain issues or areas for improvement that are more challenging to identify when reviewing the entire project.
 
 ![](images/Screenshot_2023-10-10_at_10.16.13.png)
 
@@ -112,8 +112,8 @@ Here is an example of complete PR title and description:
 They provide all the information required to review the code:
 
 - A **short title** to identify what the PR is about from the PR list.
-- A **reference to the Jira issue**, and a link to a **Figma design** so that everyone can check you implemented the UI correctly.
-- A **short description** of the changes. Note that it doesn’t need to repeat what is in the Jira or GitHub issue, which usually contains more information.
+- A **reference to the Jira issue** (or GitHub, Trello…), and a link to a **Figma design** (or Sketch, wireframe…) so that everyone can check you implemented the UI correctly.
+- A **short description** of the changes. Note that it doesn’t need to repeat what is in the issue, which usually contains more information.
 - **Screenshots or videos** of the changes (helpful for UI changes; for API changes you can provide screenshots of API calls using cURL or Postman).
 - **Steps to test** your changes
 - **Next steps**, i.e. what people can expect from your next PR (or someone else’s)
@@ -145,7 +145,7 @@ Obviously this _self-review_ doesn’t have the same goal as a classic review, b
 
 Reviewing your own code will force you to read it. It’s easy to write code forgetting that someone will have to read it at some point. And the easy code to write might not be the easy one to read.
 
-Open your PR in GitHub and review each change as you will do if you were reviewing someone else’s code. The code highlighting might be different from your VS Code, you see only changed lines instead of the whole files… You can see your code from a different point of view, a different angle.
+Open your PR in GitHub and review each change as you will do if you were reviewing someone else’s code. The code highlighting might be different from your IDE, you see only changed lines instead of the whole files… You can see your code from a different point of view, a different angle.
 
 Thanks to this view, you may realize that some code is duplicated where it should not. Or that you forgot to change a file, that you expected to see in the listed modified files but can’t find.
 
