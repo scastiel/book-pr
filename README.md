@@ -2,7 +2,7 @@
 
 # Pull Requests and Code Review
 
-**Strategies, Techniques,and Best Practices for Collaboration**
+_Best Practices for Developers, from **Junior** to **Team Lead**_
 
 This is a book where I listed all the advice I gave to and received from developers over the past few years about pull requests and code review. You’ll find real-life examples and actionable insights to get better at the exercise, a must for everyday developer collaboration.
 
